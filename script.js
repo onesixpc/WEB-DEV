@@ -36,3 +36,12 @@ console.log(typeof undef); // undefined
 console.log(typeof null); // object
 console.log(typeof obj); // object
 console.log(typeof arr); // object
+
+// type conversion
+let numStr = String(num); // number to string
+let strNum = Number("123"); // string to number
+let boolNum = Number(true); // boolean to number
+let numBool = Boolean(1); // number to boolean
+
+console.log(typeof boolNum, boolNum);
+console.log(typeof bool, bool);
