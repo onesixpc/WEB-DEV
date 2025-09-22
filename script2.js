@@ -32,3 +32,36 @@ switch (day) {
     break;
 }
 
+
+for (let i = 0; i<10; i++){
+  console.log(i+1);
+}
+
+let j = 0;
+while(j<10){
+  console.log(j+1);
+  j++;
+}
+
+let k = 0;
+do{
+  console.log(k+1);
+  k++;
+}while(k<10);
+
+//functions
+function multiply(a,b,c){
+  console.log(a*b*c);
+}
+multiply(6,8,4);
+
+// arrow function
+let mult = (a,b,c) => console.log(a*b*c);
+mult(6,8,4);
+console.log(typeof mult);
+
+//iife - immediately invoked function expression
+(function(a,b,c){
+  console.log(a*b*c);})(6,8,4);
+
+// end of file
